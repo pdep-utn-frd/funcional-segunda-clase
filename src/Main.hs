@@ -80,7 +80,7 @@ data AlumnoRecord = UnAlumnoR -- que es el constructor? Una funcion que construy
   , metodoDeEstudio :: [String] -> Bool
   }
 
-metodoDeEstudio :: [String] -> Bool
+metodoDeEstudioIvan :: [String] -> Bool
 metodoDeEstudioIvan materias = True
 
 ivanConRecord = UnAlumnoR { nombre          = "Ivan"
